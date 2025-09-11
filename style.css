@@ -33,8 +33,6 @@ a {
 a:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
-nav {
-    background-color: black;
-    height: 30px;
-    margin-left: 150px;
+.noticias {
+    display: grid;
 }
