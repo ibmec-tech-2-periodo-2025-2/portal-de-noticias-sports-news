@@ -61,6 +61,7 @@ main {
     position: fixed;
     border-right: 1px solid black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 70px;
 }
 a {
     display: block;
@@ -71,4 +72,49 @@ a {
 }
 a:hover {
     background-color: rgba(0, 0, 0, 0.2);
+}
+.noticias-principais {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border: 1px red solid;
+    height: calc(100vh - 70px);
+    margin: 50px;
+    margin-left: 210px;
+    gap: 50px;
+    }
+
+.noticia1 {
+    background-image: url(assets/img/shai-noticia.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 1/4;
+    grid-row: 1/4;
+}
+
+.noticia2 {
+    background-image: url(assets/img/verstappen-noticias.webp);
+    background-size: cover;
+    background-position: center;
+    grid-column: 4/6;
+    grid-row: 1/2;
+
+    
+}
+
+.noticia3 {
+    background-image: url(assets/img/metcalf-noticias.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 4/6;
+    grid-row: 2/3;
+    
+}
+
+.noticia4 {
+    background-image: url(assets/img/cristiano-noticias.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 4/6;
+    grid-row: 3/4;    
 }
