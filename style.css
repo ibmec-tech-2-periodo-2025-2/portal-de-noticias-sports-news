@@ -21,10 +21,20 @@ main {
     height: calc(100vh - 70px);
     position: fixed;
     border-right: 1px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
 }
 nav {
     background-color: black;
     height: 30px;
-    width: calc(100vw - 150px);
-    : 0;
+    margin-left: 150px;
 }
