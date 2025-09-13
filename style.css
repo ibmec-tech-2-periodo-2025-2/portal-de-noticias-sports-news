@@ -82,7 +82,17 @@ a:hover {
     margin: 50px;
     margin-left: 210px;
     gap: 50px;
+    position: relative;
     }
+
+.noticias-principais > div {
+    position: relative;
+}
+.noticias-principais > div a {
+    position: absolute;
+    inset: 0;
+    display: block;
+}
 
 .noticia1 {
     background-image: url(assets/img/shai-noticia.jpg);
@@ -91,7 +101,6 @@ a:hover {
     grid-column: 1/4;
     grid-row: 1/4;
 }
-
 .noticia2 {
     background-image: url(assets/img/verstappen-noticias.webp);
     background-size: cover;
@@ -99,7 +108,6 @@ a:hover {
     grid-column: 4/6;
     grid-row: 1/2;
 
-    
 }
 
 .noticia3 {
