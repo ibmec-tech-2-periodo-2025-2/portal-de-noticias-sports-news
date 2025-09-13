@@ -126,3 +126,31 @@ a:hover {
     grid-column: 4/6;
     grid-row: 3/4;    
 }
+h1 {
+    font-size:41px;
+}
+.titulo_n1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+.subtitulo_n1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: rgb(116, 116, 116);
+}
+.reporter_n1 {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 634px;
+    color: rgb(179, 179, 179);
+    font-size: small;
+}
