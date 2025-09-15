@@ -12,6 +12,16 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+footer {
+    margin-top: 30px;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(0, 150, 45);
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 header img {
     max-width: 25%;
     max-height: 50px;
@@ -77,7 +87,7 @@ a:hover {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    border: 1px red solid;
+    /* border: 1px red solid; */
     height: 80vh;
     margin: 50px;
     margin-left: 210px;
@@ -135,7 +145,7 @@ h1 {
     align-items: center;
     justify-content: center;
     margin-top: 40px;
-    margin-left: 40px;
+    margin-left: 49px;
     margin-right: 40px;
 
 }
@@ -144,7 +154,7 @@ h1 {
     align-items: center;
     justify-content: center;
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 49px;
     margin-right: 40px;
     color: rgb(116, 116, 116);
 }
@@ -154,4 +164,33 @@ h1 {
     margin-left: 634px;
     color: rgb(179, 179, 179);
     font-size: small;
+    margin-right:618px ;
+    border-bottom: 0.2px solid black;
+}
+.corpo_not1{
+    /* border: 1px solid green; */
+    margin-top: 10px;
+    width: 660px;
+    margin-left:632px ;
+}
+.imgn1{
+    border-radius: 10px;
+    margin-top: 30px;
+    width:660px ;
+    height: 350px;
+    margin-left: 630px;
+    box-shadow: rgba(0, 150, 45, 0.473) 3px 5px 10px;
+}
+.tituloimg1 {
+    margin-top: 10px;
+    width: 660px;
+    margin-left:632px ;
+    font-size: small;
+    color: rgb(179, 179, 179);
+}
+.corponot1_pt2 {
+    /* border: 1px solid green; */
+    margin-top: 30px;
+    width: 660px;
+    margin-left:632px ;
 }
