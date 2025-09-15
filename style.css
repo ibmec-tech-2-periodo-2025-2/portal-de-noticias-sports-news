@@ -87,6 +87,7 @@ a:hover {
 
 .noticias-principais > div {
     position: relative;
+    border-radius: 20px;
 }
 .noticias-principais > div a {
     position: absolute;
