@@ -78,7 +78,7 @@ a:hover {
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(3, 1fr);
     border: 1px red solid;
-    height: calc(100vh - 70px);
+    height: 80vh;
     margin: 50px;
     margin-left: 210px;
     gap: 50px;
