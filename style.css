@@ -96,16 +96,14 @@ a:hover {
 
 #noticia1 {
     background-image: url(assets/img/shai-noticia.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover;
+    background-position: top center;
     grid-column: 1/4;
     grid-row: 1/4;
 }
 #noticia2 {
     background-image: url(assets/img/verstappen-noticias.webp);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     grid-column: 4/6;
     grid-row: 1/2;
@@ -114,9 +112,8 @@ a:hover {
 
 #noticia3 {
     background-image: url(assets/img/metcalf-noticias.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover;
+    background-position: top center;
     grid-column: 4/6;
     grid-row: 2/3;
     
@@ -124,9 +121,8 @@ a:hover {
 
 #noticia4 {
     background-image: url(assets/img/cr7-2.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover;
+    background-position: top center;
     grid-column: 4/6;
     grid-row: 3/4;    
 }
