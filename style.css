@@ -204,8 +204,9 @@ h1 {
     align-items: center;
     justify-content: center;
     margin-top: 40px;
-    margin-left: 49px;
-    margin-right: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
 }
 
 .subtitulo_n2 {
@@ -213,44 +214,57 @@ h1 {
     align-items: center;
     justify-content: center;
     margin-top: 20px;
-    margin-left: 9px;
-    margin-right: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
     color: rgb(116, 116, 116);
 }
 
 .reporter_n2 {
-    display: flex;
-    width: 70vw;
-    margin-top: 10px;
-    margin-left: 634px;
     color: rgb(179, 179, 179);
     font-size: small;
-    margin-right:600px ;
+    margin: 10px auto 0 auto;
+    max-width: 900px;
+    border-bottom: 0.1px solid black;
+    text-align: left;
 }
+
 .corpo_not2{
-    /* border: 1px solid green; */
-    margin-top: 10px;
-    width: 660px;
-    margin-left:632px ;
+    margin-top: 20px;
+    max-width: 900px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
 }
+
 .imgn2{
     border-radius: 10px;
     margin-top: 30px;
-    width:660px ;
-    height: 350px;
-    margin-left: 630px;
+    max-width: 800px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     box-shadow: rgba(0, 150, 45, 0.473) 3px 5px 10px;
+    display: block;
 }
+
 .tituloimg2 {
     margin-top: 10px;
-    width: 660px;
-    margin-left:632px ;
+    max-width: 900px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     font-size: small;
     color: rgb(179, 179, 179);
+    text-align: left;
 }
+
 .corponot2_pt2 {
-    /* border: 1px solid green; */
     margin-top: 30px;
-    width: 660px;
-    margin-left:632px ;
+    max-width: 900px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
 }
