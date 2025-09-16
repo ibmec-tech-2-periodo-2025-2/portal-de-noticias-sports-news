@@ -141,30 +141,18 @@ h1 {
     font-size:41px;
 }
 .titulo_n1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 40px;
-    margin-left: 49px;
-    margin-right: 40px;
-
+    margin-top: 20px;
+    color: rgb(0, 150, 45);;
 }
 .subtitulo_n1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-top: 20px;
-    margin-left: 49px;
-    margin-right: 40px;
-    color: rgb(116, 116, 116);
+    color: rgb(0, 194, 58);
 }
 .reporter_n1 {
     display: flex;
     margin-top: 10px;
-    margin-left: 634px;
     color: rgb(179, 179, 179);
     font-size: small;
-    margin-right:618px ;
     border-bottom: 0.2px solid black;
 }
 .corpo_not1{
@@ -190,6 +178,11 @@ h1 {
 }
 .corponot1_pt2 {
     /* border: 1px solid green; */
+    margin-top: 30px;
+    width: 660px;
+    margin-left:632px ;
+}
+.cabecalho {
     margin-top: 30px;
     width: 660px;
     margin-left:632px ;
