@@ -143,14 +143,14 @@ h1 {
 .titulo_n1 {
     color: rgb(0, 150, 45);
     margin: 0 auto;
-    width: 660px;
+    width: 900px;
     margin-top: 20px;
     text-align: left; 
 }
 
 .subtitulo_n1 {
-    color: rgb(0, 194, 58);
-    width: 660px;
+    color: rgb(0, 0, 0);
+    width: 900px;
     margin: 0 auto;
     margin-top: 10px;
     text-align: left; 
@@ -159,7 +159,7 @@ h1 {
 .reporter_n1 {
     color: rgb(179, 179, 179);
     font-size: small;
-    width: 660px;
+    width: 900px;
     border-bottom: 0.2px solid black;
     margin: 0 auto;        
     text-align: left;
@@ -167,7 +167,7 @@ h1 {
 }
 
 .corpo_not1 {
-    width: 660px;
+    width: 900px;
     margin: 0 auto;        
     text-align: justify;   
     margin-top: 40px;
@@ -176,7 +176,7 @@ h1 {
 .imgn1 {
     border-radius: 10px;
     margin-top: 40px;
-    width: 660px;
+    width: 900px;
     height: 350px;
     box-shadow: rgba(0, 150, 45, 0.473) 3px 5px 10px;
     display: block;
@@ -185,7 +185,7 @@ h1 {
 }
 
 .tituloimg1 {
-    width: 660px;
+    width: 900px;
     font-size: small;
     color: rgb(179, 179, 179);
     margin: 0 auto;        
@@ -194,7 +194,7 @@ h1 {
 }
 
 .corponot1_pt2 {
-    width: 660px;
+    width: 900px;
     margin: 0 auto;        
     text-align: justify;
     margin-top: 40px;
