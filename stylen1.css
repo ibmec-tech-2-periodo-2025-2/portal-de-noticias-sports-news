@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-#cabecalhonot {
+header {
     height: 70px;
     width: 100%;
     background-color: rgb(0, 150, 45);
@@ -12,6 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: static;
 }
 
 footer {
