@@ -23,10 +23,11 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
-header img {
-    max-width: 25%;
-    max-height: 70px;
-    height: auto;
+.logo {
+    height: 50px;
+    width: auto;
+    max-width: 200px;
+    border: 0;
 }
 .left {
     display: flex;
@@ -98,7 +99,6 @@ a:hover {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    /* border: 1px red solid; */
     height: 80vh;
     margin: 50px;
     margin-left: 210px;
