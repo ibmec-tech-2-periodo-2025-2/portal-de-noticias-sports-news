@@ -371,4 +371,12 @@ h1 {
     background: linear-gradient(to top, rgba(0, 0, 0, 5) 0%, rgba(0, 0, 0, 0) 40%);
     z-index: 1;
     border-radius: 20px;
-  }
+}
+.quote {
+    border-left: 4px solid rgb(0, 150, 45);
+    padding: 20px;
+    margin: 25px 0;
+    background: rgba(0, 150, 45, 0.05);
+    border-radius: 0 10px 10px 0;
+    font-style: italic;
+}
