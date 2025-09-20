@@ -227,7 +227,6 @@ h1 {
 .subtitulo_n2 {
     display: flex;
     align-items: center;
-    justify-content: center;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -372,7 +371,7 @@ h1 {
     z-index: 1;
     border-radius: 20px;
 }
-.quote {
+.fala {
     border-left: 4px solid rgb(0, 150, 45);
     padding: 20px;
     margin: 25px 0;
