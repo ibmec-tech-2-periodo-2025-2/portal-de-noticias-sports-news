@@ -24,7 +24,7 @@ footer {
     align-items: center;
 }
 .logo {
-    height: 50px;
+    height: 60px;
     width: auto;
     max-width: 200px;
     border: 0;
@@ -77,6 +77,10 @@ main {
     top: 70px;
     transition: transform 0.3s ease;
     box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+}
+.barra-integrantes {
+    margin-top: 400px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 .barra-lateral a {
     border-bottom: 1px solid rgba(255,255,255,0.1);

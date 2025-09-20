@@ -72,7 +72,7 @@ main {
     height: calc(100vh - 70px);
     position: fixed;
     border-right: 1px solid black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     top: 70px;
 }
 a {
@@ -89,7 +89,6 @@ a:hover {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    /* border: 1px red solid; */
     height: 80vh;
     margin: 50px;
     margin-left: 210px;
@@ -140,29 +139,9 @@ a:hover {
     grid-column: 4/6;
     grid-row: 3/4;    
 }
+
 h1 {
     font-size:41px;
-}
-.titulo_n1 {
-    color: rgb(0, 150, 45);
-    margin: 0 auto;
-    width: 900px;
-    margin-top: 20px;
-    text-align: left; 
-    font-family: "Tinos", serif;
-    font-weight: 900;
-    font-style: italic; 
-}
-
-.subtitulo_n1 {
-    color: rgb(0, 0, 0);
-    width: 900px;
-    margin: 0 auto;
-    margin-top: 10px;
-    text-align: left; 
-    font-family: "Tinos", serif;
-    font-weight: 600;
-    font-style: italic;
 }
 
 .reporter_n1 {
@@ -221,27 +200,29 @@ h1 {
 .displeyint{ 
     gap:30px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     margin:5%;
+    background-color: rgb(240 240, 240);
+    padding: 30px;
+    padding-left: 50px;
 }
 .integrantesdiv{ 
     background-color:  rgb(0, 150, 45);
-    height: 40vh;
-    width: 20vw;
+    height: 200px;
+    width: 500px;
     display: flex;
-    flex-direction: column; 
-    align-items: center;    
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px;
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 20px;
 }
 .img_integrantes{
-    margin-top: 50px;
-    width: 15vw;
-    height: 20vh;
+    left: 20px;
+    border-radius: 40px;
+    width: 30%;
+    height: 80%;
 }
 .integrantes_h2{
-    margin-top: 40px;
     color: white;
     font-family: "Tinos", serif;
     font-weight: 800;
