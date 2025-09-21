@@ -15,8 +15,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 main {
-    display: flex;
-    justify-content: center;
+    display: inline;
 }
 footer {
     margin-top: 30px;
@@ -206,12 +205,12 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    margin: 0 auto;
     margin-bottom: 50px;
     padding: 30px;
-    padding-left: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 10px;
-    width: 1200px;
+    max-width: 1200px;
 }
 .time {
     text-align: center;
@@ -271,4 +270,16 @@ p {
 .links img {
     height: 20px;
     margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .displeyint {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        width: 90%;
+    }
+    .time {
+        width: 80%;
+    }
+
 }
