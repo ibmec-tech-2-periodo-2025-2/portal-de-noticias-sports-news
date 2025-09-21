@@ -22,6 +22,7 @@ header {
 }
 .left {
     display: flex;
+    min-width: 200px;
     align-items: center;
 }
 .center {
@@ -30,9 +31,10 @@ header {
     justify-content: center;
 }
 .right {
+    min-width: 200px;
     display: flex;
     justify-content: flex-end;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 .menu-icon {
     position: absolute;
@@ -454,6 +456,12 @@ h1 {
         left: 10px;
         font-size: 20px;
     }
+
+    .imgn1 {
+        width: 400px;
+        height: auto;
+    }
+
     .titulo_n2 {
         font-size: 30px;
         margin: 20px;
