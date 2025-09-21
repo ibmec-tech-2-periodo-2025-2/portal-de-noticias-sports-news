@@ -272,14 +272,110 @@ p {
     margin-top: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .displeyint {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 1fr);
-        width: 90%;
+        width: 95%;
+        padding: 10px;
+        gap: 15px;
     }
+    
     .time {
-        width: 80%;
+        margin-top: 20px;
+        padding: 0 10px;
+    }
+    
+    .time h1 {
+        font-size: 28px;
+    }
+    
+    .time p {
+        font-size: 14px;
+    }
+    
+    .integrantesdiv {
+        padding: 12px;
+    }
+    
+    .conteudo {
+        gap: 12px;
+    }
+    
+    .img_integrantes {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .integrantes_h2 {
+        font-size: 15px;
+    }
+    
+    .p_integrantes {
+        width: 100px;
+        height: 26px;
+        font-size: 12px;
+    }
+    
+    .links {
+        gap: 10px;
+        margin-top: 10px;
+    }
+    
+    .links a {
+        width: 30px;
+        height: 30px;
+        padding: 6px;
+    }
+    
+    .links img {
+        height: 14px;
+        width: 14px;
+    }
+    
+    /* Header mobile */
+    .right {
+        min-width: 120px;
+        margin-right: 10px;
+    }
+    
+    .search {
+        width: 120px;
+        padding: 5px 8px;
+        font-size: 14px;
+    }
+    
+    .left {
+        min-width: 60px;
+    }
+    
+    .menu-icon {
+        left: 10px;
+        font-size: 20px;
     }
 
+    .imgn1 {
+        width: 400px;
+        height: auto;
+    }
+    
+    footer {
+        height: auto;
+        padding: 15px 1px;
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .rodape-not {
+        flex-direction: column;
+        gap: 15px;
+        height: auto;
+        padding: 20px;
+    }
+    
+    .rodape-not p {
+        margin: 5px;
+        font-size: 14px;
+        text-align: center;
+    }
 }
