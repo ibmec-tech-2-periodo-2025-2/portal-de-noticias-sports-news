@@ -15,7 +15,6 @@ body {
 main {
     flex: 1;
     background-color: white;
-    
 }
 footer {
     margin-top: 30px;
@@ -231,6 +230,7 @@ p {
     margin: 0;
     padding: 0;
     border-radius: 5px;
+    z-index: 5;
 }
 .links img {
     height: 20px;
