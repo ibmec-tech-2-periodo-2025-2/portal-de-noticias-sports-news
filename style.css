@@ -437,6 +437,26 @@ h1 {
 }
 
 @media (max-width: 480px) {
+    .barra-lateral {
+        display: none;
+    }
+    .noticias-principais {
+    margin: 5px;
+    gap: 10px;
+    }
+    .titulo-principal {
+    font-size: 30px;
+    margin: 5px;
+    text-align: center;
+    }
+    .titulo-secundario {
+    font-size: 15px;
+    margin: 5px;
+    text-align: center;
+    }
+    header {
+        max-width: 100%;
+    }
     .right {
         min-width: 120px;
         margin-right: 10px;
@@ -478,5 +498,24 @@ h1 {
         padding: 15px 1px;
         flex-direction: column;
         gap: 5px;
+        background-color: rgb(0, 150, 45);
+        border-bottom: 1px solid black;
+        margin-top: 30px;
+    } 
+    .rodape {
+        flex-direction: column;
+        gap: 15px;
+        height: auto;
+        padding: 20px;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        margin-top: 5px;
+    }
+    
+    .rodape p {
+        margin: 5px;
+        font-size: 14px;
+        text-align: center;
     }
 }

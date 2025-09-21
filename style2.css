@@ -13,7 +13,6 @@ body {
     flex-direction: column;
 }
 main {
-    display: inline;
     flex: 1;
     background-color: white;
     
@@ -237,7 +236,6 @@ p {
     height: 20px;
     margin-top: 0;
 }
-
 @media (max-width: 480px) {
     .displeyint {
         grid-template-columns: 1fr;
