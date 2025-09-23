@@ -79,7 +79,7 @@ main {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     top: 70px;
     transition: transform 0.3s ease;
-    box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+
 }
 .barra-integrantes {
     margin-top: 335px;
