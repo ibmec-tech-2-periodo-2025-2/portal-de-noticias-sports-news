@@ -322,3 +322,9 @@ p {
         text-align: center;
     }
 }
+
+.links a:hover {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
