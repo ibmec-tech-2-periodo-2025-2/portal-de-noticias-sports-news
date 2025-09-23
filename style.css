@@ -446,8 +446,14 @@ h1 {
     color: white;
     margin: 10px;
 }
+.grupo {
+    display: none;
+}
 
 @media (max-width: 768px) {
+    .grupo{
+        display: block;
+    }
     .barra-lateral {
         transform: translateX(-100%);
         z-index: 10;
@@ -554,6 +560,10 @@ h1 {
         grid-template-rows: repeat(4, auto);
         height: auto;
     }
+    .barra-integrantes {
+        margin-top: 370px;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        border-bottom: 2px solid rgba(255,255,255,0.2);
     #noticia1, #noticia2, #noticia3, #noticia4{
         grid-column: 1;
         grid-row: auto;
@@ -656,5 +666,8 @@ h1 {
         margin: 5px;
         font-size: 14px;
         text-align: center;
+    }
+    .grupo{
+        display: block;
     }
 }
