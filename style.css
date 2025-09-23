@@ -446,6 +446,9 @@ h1 {
     color: white;
     margin: 10px;
 }
+.grupo{
+    display: none;
+}
 
 @media (max-width: 768px) {
     .barra-lateral {
@@ -539,6 +542,9 @@ h1 {
         margin: 8px;
         font-size: 15px;
         text-align: center;
+    }
+    .grupo{
+        display: block;
     }
 }
 
@@ -656,5 +662,8 @@ h1 {
         margin: 5px;
         font-size: 14px;
         text-align: center;
+    }
+    .grupo{
+        display: block;
     }
 }
